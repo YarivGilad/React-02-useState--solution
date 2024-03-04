@@ -1,4 +1,4 @@
-/* // 1. starting point
+// 1. starting point
 import { useState } from "react";
 import TopBar from "./TopBar";
 import NameInput from "./NameInput";
@@ -21,7 +21,7 @@ export default function App() {
       <NameInput />
     </div>
   );
-} */
+}
 
 /* // 2. Using the Books component instances
 import TopBar from "./TopBar";
@@ -65,7 +65,7 @@ export default function App() {
   );
 } */
 
-// 4. Using the 3 Counter instances with props
+/* // 4. Using the 3 Counter instances with props
 import TopBar from "./TopBar";
 import NameInput from "./NameInput";
 import Counter from "./Counter";
@@ -83,5 +83,5 @@ export default function App() {
       <NameInput />
     </div>
   );
-}
+} */
 
