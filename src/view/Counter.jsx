@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-export default function Counter({item}) {
-  const [count, setCount] = useState(2);
+export default function Counter({item,initialValue}) {
+  const [count, setCount] = useState(initialValue);
 
   return (
       <div className="hbox space-between mt20">

@@ -1,4 +1,4 @@
-// 1. starting point
+/* // 1. starting point
 import { useState } from "react";
 import TopBar from "./TopBar";
 import NameInput from "./NameInput";
@@ -21,7 +21,7 @@ export default function App() {
       <NameInput />
     </div>
   );
-}
+} */
 
 /* // 2. Using the Books component instances
 import TopBar from "./TopBar";
@@ -65,7 +65,7 @@ export default function App() {
   );
 } */
 
-/* // 4. Using the 3 Counter instances with props
+// 4. Using the 3 Counter instances with props
 import TopBar from "./TopBar";
 import NameInput from "./NameInput";
 import Counter from "./Counter";
@@ -75,13 +75,13 @@ export default function App() {
     <div className="app">
       <TopBar>React Components are state machines</TopBar>
       <h1 className="headline white-text">_ ^ _ Stateful Bookstore _ ^ _</h1>
-      <Counter item={"Book"}/>
-      <Counter item={"Customer"}/>
-      <Counter item={"Employee"}/>
+      <Counter item="Book" initialValue={3}/>
+      <Counter item="Customer" initialValue={12}/>
+      <Counter item="Employee" initialValue={24}/>
       <br />
       <hr />
       <NameInput />
     </div>
   );
-} */
+}
 
